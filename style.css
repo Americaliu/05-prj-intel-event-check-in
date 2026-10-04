@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -381,4 +382,39 @@ select {
   .teams-grid {
     grid-template-columns: 1fr;
   }
+}
+/*Attendee List*/
+#attendeeList {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+#attendeeList h3 {
+  margin: 0 0 16px;
+  text-align: center;
+  color: #334155;
+  font-size: 1rem;
+}
+
+#attendeeList p {
+  margin: 10px 0;
+  padding: 12px 16px;
+
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+
+  text-align: left;
+}
+#attendeeList p.water {
+  background-color: #d9f2fb;
+}
+
+#attendeeList p.zero {
+  background-color: #dcf8e7;
+}
+
+#attendeeList p.power {
+  background-color: #ffecd8;
 }
